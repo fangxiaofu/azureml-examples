@@ -27,6 +27,7 @@ az extension add -n ml -y
 ## For backward compatibility - running on old subscription
 # <set_variables>
 GROUP="diabetes-dev-rg"
+RESOURCE_GROUP_NAME="diabetes-dev-rg"
 LOCATION="eastus"
 WORKSPACE="aml-diabetes-dev"
 # </set_variables>
