@@ -33,7 +33,7 @@ jobs:
         mode: upload
     code: src/transform
     environment: azureml:AzureML-sklearn-1.0-ubuntu20.04-py38-cpu@latest
-    compute: azureml:cpu-cluster
+    compute: azureml:testdev-vm-aml
     command: >-
       python transform.py 
       --clean_data ${{inputs.clean_data}} 
