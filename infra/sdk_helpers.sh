@@ -26,6 +26,9 @@ COMMON_TAGS=(
   "EnableAzSecPackIdentityPolicy=true"
 )
 
+RESOURCE_GROUP_NAME = "diabetes-dev-rg"
+WORKSPACE_NAME = "aml-diabetes-dev"
+SUBSCRIPTION_ID = "3f8d69be-df32-4222-804e-25a9ad82acc2"
 
 ####################
 # SETUP LOGGING
